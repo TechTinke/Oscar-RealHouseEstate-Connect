@@ -61,7 +61,7 @@ Technologies Used
 
 Known Issues
 
-- The data is stored in the browser's memory.
+- The data is stored in the browser's memory and not a database
 - The platform does not yet support validation for duplicate agents.
 - No authentication or user roles are implemented. Any user can register an agent.
 
