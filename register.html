@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="reach.html">Reach Us</a></li>
+        <li><a href="register.html">Register Agent</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Register New Agent</h1>
+      <form id="register-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="county">County:</label>
+        <select id="county" name="county" required>
+          <option value="Nairobi">Nairobi</option>
+          <option value="Mombasa">Mombasa</option>
+          <option value="Kiambu">Kiambu</option>
+        </select>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
