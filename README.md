@@ -81,4 +81,4 @@ Copyright: © 2025 Oscar Maingi. All rights reserved.
 ---
 
 Link to Live Site (GitHub Pages)
-This project is hosted on GitHub Pages. You can access the live site at:
+This project is hosted on GitHub Pages. You can access the live site at https://techtinke.github.io/Oscar-RealHouseEstate-Connect/
